@@ -36,7 +36,7 @@ function($) {
 	        		}
 	        	}
 	  			if(objn == 0) {
-	  				console.log('error:needs arguments');
+	  				//console.log('error:needs arguments');
 	  			}
 
 	  			itemClass = options.itemClass;
@@ -50,7 +50,7 @@ function($) {
 	  					} else if(!isNaN(parseInt(options.topMargin))) {
 	  						topMargin = parseInt(options.topMargin);
 	  					} else {
-	  						console.log("incorrect argument, ignored.");
+	  						//console.log("incorrect argument, ignored.");
 	  						topMargin = 0;
 	  					}	
 	  				}
